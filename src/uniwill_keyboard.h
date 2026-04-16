@@ -1653,6 +1653,7 @@ static int has_universal_ec_fan_control(void) {
 		|| dmi_match(DMI_BOARD_NAME, "GXxMRXx")
 		|| dmi_match(DMI_BOARD_NAME, "XxAR4NAx")
 		|| dmi_match(DMI_BOARD_NAME, "X6FR5xxY")
+                || dmi_match(DMI_PRODUCT_SKU, "R9T V1")
 		|| dmi_match(DMI_BOARD_NAME, "X5AR45xS")
 	;
 
